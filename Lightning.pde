@@ -7,7 +7,7 @@ int we=second();
 int me=100;
 //boolean tn=false;
 void setup(){
-size(1440,847);
+size(1450,847);
 stroke(255,255,255);
 
 background(70,70,70);
@@ -16,7 +16,7 @@ background(70,70,70);
 void draw(){
 we=second();
 //system.out.println (we);
-if (me+.5<=we){
+if (me+1<=we){
 background(70,70,70);
 me=100;
 }
@@ -75,7 +75,7 @@ void mousePressed(){
 me=second();
 background(222,222,222);
 stroke(255,255,255);
-lightlike((float)Math.random()*1400+20);
+lightlike((float)Math.random()*1400+25);
 
 
 
