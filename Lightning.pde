@@ -15,7 +15,7 @@ background(70,70,70);
 
 void draw(){
 we=second();
-//system.out.println (we);
+System.out.println (we);
 if (me+1<=we){
 background(70,70,70);
 me=100;
@@ -76,11 +76,16 @@ me=second();
 background(222,222,222);
 stroke(255,255,255);
 lightlike((float)Math.random()*1400+25);
-
-
-
-
-
 y=0;
 b=0;
+}
+void keyPressed() {
+    if (key == ' ') {
+      me=second();
+background(222,222,222);
+stroke(255,255,255);
+lightlike((float)Math.random()*1400+25);
+y=0;
+b=0;
+    }
 }
