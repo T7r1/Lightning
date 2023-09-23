@@ -15,7 +15,7 @@ background(70,70,70);
 
 void draw(){
 we=second();
-System.out.println (we);
+//system.out.println (we);
 if (me+.5<=we){
 background(70,70,70);
 me=100;
